@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="748dp"
+        android:backgroundTint="#091435"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="@string/emptitle"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="273dp"
+            android:layout_height="141dp"
+            android:gravity="center"
+            android:src="@drawable/richbg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:text="@string/empname"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/empname"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:text="@string/empsalary"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/empsal"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:text="@string/emptax"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/emptax"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:text="@string/netsal"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/netsal"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#004AAA"
+                android:text="@string/ok"
+                android:textColor="#FFFFFF" />
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#004AAB"
+                android:text="@string/cancel"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
